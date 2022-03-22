@@ -118,5 +118,7 @@ int main()
 	fclose(maskFile);
 	fclose(netAddrFile);
 	fclose(testFile);
+
+	return 0;
 }
 
