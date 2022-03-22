@@ -13,10 +13,10 @@ int main()
 	char lineNumsDotsIP[15], checkResult = 0;
 	unsigned int lineNet, lineMask, netAddr32Bit, mask32Bit, ip32Bit;
 
-	const char *dataFilename = "../random_ips.txt",
-		*maskFilename = "../masks.txt",
-		*netAddrFilename = "../net_addresses.txt",
-		*testFilename = "../test_ips.txt";
+	const char *dataFilename = "random_ips.txt",
+		*maskFilename = "masks.txt",
+		*netAddrFilename = "net_addresses.txt",
+		*testFilename = "test_ips.txt";
 		
 	/* test_generateData(dataFilename, maskFilename, netAddrFilename); */
 
