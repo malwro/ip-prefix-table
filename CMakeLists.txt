@@ -22,7 +22,7 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/test_ips.txt
     ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 
 # Libraries
-add_library(Lib prefix_table.c)
+add_library(Lib prefix_storage.c)
 add_library(Gen generator.c)
 
 # Executables
